@@ -168,6 +168,8 @@ function recordCleaner(obj){
   return obj
 
 }
+
+recordCleaner(myCar)
 ////////// PROBLEM 5 //////////
 
 // Do not edit the code below.
@@ -184,8 +186,8 @@ var numsArr = [ [1, 2, 3, 4], [5, 6], [7, 8, 9, 10, 11]];
 */
 
 //Code
-
 function looper(arr) {
+
   for(let i = 0; i < arr.length; i++){
     for(let j = 0; j < arr[i].length; j++){
 
@@ -199,5 +201,7 @@ function looper(arr) {
   }
   return arr
 }
+
+looper(numsArr)
 
 
